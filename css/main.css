@@ -2,9 +2,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
-    align-items: center;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
+    color: rgb(85, 85, 85);
   }
   
   .container {
@@ -19,16 +19,22 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    padding-top: 20px;
     background-color: #D8EAF6;
+}
 
+.main-header :last-child{
+    margin-right: 20px;
+}
+
+.main-header img{
+    margin-left: 35px;
 }
 
 .main-header-nav{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 12px;
     font-weight: bold;
 
 }
@@ -47,36 +53,221 @@ body {
 
 .top-row1{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .left-column-row1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
+    margin: 0;
+    padding: 0;
 }
 
 .left-column-row1 p{
     font-size: 10px;
-    width: 250px;
+    width: 230px;
 }
 
 .left-column-row1 a{
-    width: 90px;
-    font-size:9px ;
+    margin: 0;
+    font-size:6px ;
     text-decoration: none;
     background-color: #A52429;
-    padding: 5px 10px;
+    padding: 7px 15px;
     border-radius: 25px;
     color: white;
 }
 
-.left-column-row1 :last-child{
+.right-column-row1{
+    margin-left: 20px;
+}
+
+.bottom-row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.bottom-row1 h1{
+    font-size: 13px;
+}
+
+.bottom-row1 button{
+    background-color:#5D5FB2 ;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 25px;
+    border: 2px solid #5D5FB2 ;
+    font-size: 7px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.right-column-row2{
+    margin-left: 25px;
+}
+
+.right-column-row2 h1 {
+    font-size: 15px;
+}
+
+.right-column-row2 p {
+    font-size: 9px;
+}
+
+.right-column-row2 button{
+
+    margin-top: 10px;
+    font-size:6px ;
+    background-color: #A52429;
+    padding: 7px 15px;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid #A52429;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #5E60B3;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.menu-plates{
+    font-size: 5px;
+    display: flex;
+    gap: 35px;
+}
+
+.header-row3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 
 }
 
-.right-column-row1 img{
-
-    width: 450px;
-
+.header-row3 h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
+
+.header-row3 p{
+    text-align: center;
+    width: 250px;
+    font-size: 9px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.first-plate h4{
+  text-align: center;
+  color: rgba(255, 255, 255,);
+  margin: 0%;
+  margin-top: 5px;
+}
+
+.first-plate p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.first-plate a{
+    text-align: center;
+    background-color:#5E60B3 ;
+    border: 2px solid #5E60B3;
+    color: rgba(255, 255, 255);
+    font-size: 6px;
+}
+
+.second-plate h4{
+    text-align: center;
+    color: rgba(255, 255, 255);
+    margin: 0%;
+    margin-top: 5px;
+  }
+  
+  .second-plate p{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+  }
+  
+  .second-plate a{
+      text-align: center;
+      background-color:#5E60B3 ;
+      border: 2px solid #5E60B3;
+      color: rgba(255, 255, 255);
+      font-size: 6px;
+  }
+
+  .third-plate h4{
+    text-align: center;
+    color: rgba(255, 255, 255);
+    margin: 0%;
+    margin-top: 5px;
+  }
+  
+  .third-plate p{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+  }
+  
+  .third-plate a{
+      text-align: center;
+      background-color:#5E60B3 ;
+      border: 2px solid #5E60B3;
+      color: rgba(255, 255, 255);
+      font-size: 6px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
