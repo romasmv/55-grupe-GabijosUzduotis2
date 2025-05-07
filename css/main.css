@@ -192,6 +192,8 @@ body {
     margin: 0;
     padding: 0;
     font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 4px;
 }
 
 .first-plate a{
@@ -216,6 +218,8 @@ body {
       margin: 0;
       padding: 0;
       font-weight: bold;
+      margin-top: 6px;
+      margin-bottom: 4px;
   }
   
   .second-plate a{
@@ -240,6 +244,8 @@ body {
       margin: 0;
       padding: 0;
       font-weight: bold;
+      margin-top: 6px;
+      margin-bottom: 4px;
   }
   
   .third-plate a{
@@ -250,7 +256,10 @@ body {
       font-size: 6px;
   }
 
-
+.menu-plates a{
+    display: flex;
+    justify-content: center;
+}
 
 
 
