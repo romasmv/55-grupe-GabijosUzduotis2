@@ -138,7 +138,6 @@ body {
 }
 
 .right-column-row2 a{
-
     margin-top: 10px;
     font-size:6px ;
     background-color: #A52429;
@@ -171,9 +170,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
 }
 
 .header-row3 h1{
