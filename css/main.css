@@ -137,7 +137,7 @@ body {
     width: 260px;
 }
 
-.right-column-row2 button{
+.right-column-row2 a{
 
     margin-top: 10px;
     font-size:6px ;
@@ -146,6 +146,7 @@ body {
     border-radius: 25px;
     color: white;
     border: 2px solid #A52429;
+    text-decoration: none;
 }
 
 .row3 {
@@ -300,6 +301,24 @@ body {
     font-size: 7px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.about-customers .btn-right img{
+    width: 30px;
+}
+.about-customers .btn-left img{
+    width: 15px;
+    height: 8px;
+    color: grey;
+} 
+
+.about-customers .btn-right{
+    background-color: white;
+    border: white;
+}
+.about-customers .btn-left{
+    background-color: white;
+    border: white;
 }
 
 .row5{
