@@ -314,20 +314,68 @@ body {
     gap: 25px;
 }
 
+.ready-to-start h1{
+ font-size: 20px;
+ color: white;
+}
+.ready-to-start p{
+ font-size: 7px;
+ color: white;
+ margin-top: 10px;
+}
+
+.row5 form input[type="email"] {
+    padding: 10px;
+    padding-right: 100px;
+    font-size: 10px;
+    
+}
+
 .row6{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 9px;
+    gap: 120px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
+.nav-row6{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row6 p{
+    line-height: 1.8;  
+    width: 30px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.row6 a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 250px;
+    background-color:#F4F4F4 ;
+}
 
-
-
-
-
+.footer p{
+    color:rgba(0, 0, 0, 0.6); 
+    font-size: 10px;
+}
+.footer-nav a{
+    color:rgba(0, 0, 0, 0.6); 
+    font-size: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+}
 
 
 
