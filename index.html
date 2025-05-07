@@ -8,6 +8,7 @@
 </head>
 <body>
     <header class="container main-header">
+       <div class="header">
         <img src="./img/logo.webp" alt="logo">
         <nav class="main-header-nav">
             <a href="#">PHO NOODLE SOUP</a>
@@ -17,17 +18,18 @@
             <a href="#">BEVERAGES</a>
             <a href="#">KIDS</a>
         </nav>
+       </div>
     </header>
-    <main class="container">
+    <div class="container first">
         <div class="row1">
             <div class="top-row1">
               <div class="left-column-row1">
-               <img style="width: 170px;" src="./img/title.webp " alt="text 'Rice bowl'">
-               <p>Lorem ipsum dolor sit, amet consectetur adipisic elit. Ea quo quibusdam at fugit voluptatum amet ad temporibus err maiores.</p>
+               <img style="width: 450px;" src="./img/title.webp " alt="text 'Rice bowl'">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisic elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, nisi. Nemosu suntnisimor repellendus facere eveniet of type.</p>
                <a href="#">VIEW OUR MENU</a>
               </div>
               <div class="right-column-row1">
-                <img src="./img/veg-plate-top.webp" alt="vegetable-plate">
+                <img class="plate-top" src="./img/veg-plate-top.webp" alt="vegetable-plate">
               </div>
             </div>
             <div class="bottom-row1">
@@ -35,6 +37,8 @@
                 <button>COUNTING COLORIES</button>
             </div>
         </div>
+    </div>
+    <div class="container second">
         <div class="row2">
             <div class="left-column-row2">
                <img src="./img/veg-plate-midle.webp" alt="vegetable plate ">
@@ -46,6 +50,8 @@
                 <a href="#">VIEW OUR MENU</a>
             </div>
         </div>
+    </div>
+    <div class="container third">
         <div class="row3">
             <div class="header-row3">
                 <h1>OUR MENU</h1>
@@ -53,49 +59,56 @@
             </div>
             <div class="menu-plates">
                 <div class="first-plate">
-                    <img src="./img/first-plate.webp" alt="soup plate">
+                    <img style="width: 410px;" src="./img/first-plate.webp" alt="soup plate">
                     <h4>YOUR HEADING HERE</h4>
-                    <P><img style="width: 12px; height: 12px;" src="./img/only.webp" alt="only"> $24.00</P>
+                    <P><img style="width: 35px; height: 25px;" src="./img/only.webp" alt="only"> $24.00</P>
                     <a href="#">Buy Now</a>
                 </div>
                 <div class="second-plate">
-                    <img src="./img/second-plate.webp" alt="vegetable plate">
+                    <img style="width: 340px;" src="./img/second-plate.webp" alt="vegetable plate">
                     <h4>YOUR HEADING HERE</h4>
-                    <P><img  style="width: 12px; height: 12px;" src="./img/only.webp" alt="only"> $24.00</P>
+                    <P><img  style="width: 35px; height: 25px;" src="./img/only.webp" alt="only"> $24.00</P>
                     <a href="#">Buy Now</a>
                 </div>
                 <div class="third-plate">
-                    <img src="./img/third-plate.webp" alt="vegetable plate">
+                    <img style="width: 400px;" src="./img/third-plate.webp" alt="vegetable plate">
                     <h4>YOUR HEADING HERE</h4>
-                    <P><img  style="width: 12px; height: 12px;" src="./img/only.webp" alt="only"> $24.00</P>
+                    <P><img  style="width: 35px; height: 25px;" src="./img/only.webp" alt="only"> $24.00</P>
                     <a href="#">Buy Now</a>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container fourth">
         <div class="row4">
-            <img src="./img/soup-plate.webp" alt="plate with soup">
-            <img src="./img/review.webp" alt="reviews">
+            <img class="soup-plate" src="./img/soup-plate.webp" alt="plate with soup">
+            <img class="review" src="./img/review.webp" alt="reviews">
             <div class="about-customers">
                 <h1>Our Happy Costumers</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dignissimos exercitationem velit sit quidem aliquid </p>
-                <button class="btn-left"><img src="./img/left.webp" alt="pic left"></button>
-                <button class="btn-right"><img src="./img/right.webp" alt="pic right"></button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dignissimos </p>
+                <div class="buttons-row4">
+                  <button class="btn-left"><img src="./img/left.webp" alt="pic left"></button>
+                  <button class="btn-right"><img src="./img/right.webp" alt="pic right"></button>
+                </div>
             </div>
             <img class="leaf" src="./img/tree-leaf.webp" alt="three-leaf">
         </div>
+    </div>
+    <div class="container fifth">
         <div class="row5">
-            <img src="./img/wtf.webp" alt="wtf">
+            <img class="wtf" src="./img/wtf.webp" alt="wtf">
             <div class="ready-to-start">
                 <h1>Ready to get started?</h1>
-                <p>Get a guided demo Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                <p>Get a guided demo Lorem ipsum dolor sit amet</p>
             </div>
             <form action="#">
                 <input type="email" placeholder="Email address" required>
             </form>
-            <img src="./img/veg-plate-last.webp" alt="vegetable plate">
+            <img class="last-plate" src="./img/veg-plate-last.webp" alt="vegetable plate">
         </div>
+    </div>
+    <div class="container sixth">
         <div class="row6">
-
             <a href="#">info@example.com</a>
             <div class="nav-row6">
                 <a href="#">About Us</a>
@@ -104,16 +117,18 @@
                 <a href="#">Privacy Policy</a>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur </p>
-            <p>Lorem ipsum dolor sit amet consectetur </p>
+            <p class="rightp">Lorem ipsum dolor sit amet consectetur </p>
         </div>
-    </main>
-    <footer class="container footer">
+    </div>
+    <footer class="container main-footer">
+      <div class="footer">
         <p>@ 2019 All right reserved Inc</p>
         <div class="footer-nav">
             <a href="#">Privacy</a>
             <a href="#">Accessibility</a>
             <a href="#">Terms</a>
         </div>
+    </div>
     </footer> 
 </body>
 </html>
