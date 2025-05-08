@@ -54,6 +54,7 @@ body {
 
 .main-header-nav a:hover{
     color: red;
+    transition: 0.4s;
 }
 
 .first{
@@ -97,6 +98,7 @@ body {
 
 .left-column-row1 a:hover{
     background-color:#5D5FB2 ;
+    transition: 0.4s;
 }
 
 .right-column-row1{
@@ -135,6 +137,7 @@ body {
 .bottom-row1 button:hover{
     background-color: #A52429; 
     border: 2px solid  #A52429;
+    transition: 0.4s;
 }
 
 .second{
@@ -190,6 +193,7 @@ body {
 .right-column-row2 a:hover{
     background-color:#5E60B3;
     border: 2px solid #5E60B3;
+    transition: 0.4s;
 }
 
 .right-column-row2 img{
@@ -391,10 +395,6 @@ body {
     cursor: pointer;
 } 
 
-.about-customers .btn-left img :hover{
-    background-color: red;
-}
-
 .about-customers .btn-right img{
     width: 60px;
     cursor: pointer;
@@ -498,7 +498,7 @@ body {
 
 .row6 a:hover{
   color: red;
-  ti
+  transition: 0.4s;
 }
 
 .rightp{
