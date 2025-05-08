@@ -44,7 +44,6 @@ body {
     justify-content: space-between;
     gap: 35px;
     font-weight: bold;
-
 }
 
 .main-header-nav a{
@@ -52,6 +51,11 @@ body {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.main-header-nav a:hover{
+    color: red;
+}
+
 .first{
     background-color:#D8EAF6 ;
 }
@@ -91,6 +95,10 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.left-column-row1 a:hover{
+    background-color:#5D5FB2 ;
+}
+
 .right-column-row1{
     margin-left: 20px;
 }
@@ -116,11 +124,17 @@ body {
 
 .bottom-row1 button{
     background-color:#5D5FB2 ;
-    color: rgba(255, 255, 255, 0.8);;
+    color: rgba(255, 255, 255);;
     border-radius: 25px;
     padding: 10px 70px;
     border: 2px solid #5D5FB2 ;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.bottom-row1 button:hover{
+    background-color: #A52429; 
+    border: 2px solid  #A52429;
 }
 
 .second{
@@ -168,9 +182,14 @@ body {
     background-color: #A52429;
     padding: 10px 25px;
     border-radius: 25px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255);
     border: 2px solid #A52429;
     text-decoration: none;
+}
+
+.right-column-row2 a:hover{
+    background-color:#5E60B3;
+    border: 2px solid #5E60B3;
 }
 
 .right-column-row2 img{
@@ -178,7 +197,7 @@ body {
 }
 
 .third{
- background-color:#5E60B3 ;
+ background-color:#5E60B3;
 }
 
 .row3 {
@@ -188,8 +207,8 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 140px;
 }
 
 .menu-plates{
@@ -220,7 +239,7 @@ body {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 0;
-    color: rgba(255, 255, 255, 0.623);
+    color: rgba(255, 255, 255);
 }
 
 .first-plate h4{
@@ -228,18 +247,18 @@ body {
   color: rgba(255, 255, 255,);
   margin: 0%;
   margin-top: 15px;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .first-plate p{
     text-align: center;
-    color: rgb(255, 255, 255, 0.8);
-    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
     margin: 0;
     padding: 0;
     font-weight: bold;
-    margin-top: 6px;
-    margin-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 .first-plate a{
@@ -247,26 +266,30 @@ body {
     background-color:#5E60B3 ;
     border: 2px solid #5E60B3;
     color: rgba(255, 255, 255);
-    font-size: 12px;
+    font-size: 15px;
+}
+
+.first-plate a:hover{
+    color: red;
 }
 
 .second-plate h4{
     text-align: center;
     color: rgba(255, 255, 255);
     margin: 0%;
-    margin-top: 15px;
-    font-size: 12px;
+    margin-top: 22px;
+    font-size: 18px;
   }
   
   .second-plate p{
       text-align: center;
       color: rgb(255, 255, 255);
-      font-size: 35px;
+      font-size: 40px;
       margin: 0;
       padding: 0;
       font-weight: bold;
-      margin-top: 6px;
-      margin-bottom: 4px;
+      margin-top: 10px;
+      margin-bottom: 8px;
   }
   
   .second-plate a{
@@ -274,26 +297,30 @@ body {
       background-color:#5E60B3 ;
       border: 2px solid #5E60B3;
       color: rgba(255, 255, 255);
-      font-size: 12px;
+      font-size: 15px;
+  }
+
+  .second-plate a:hover{
+    color: red;
   }
 
   .third-plate h4{
     text-align: center;
     color: rgba(255, 255, 255);
     margin: 0%;
-    margin-top: 10px;
-    font-size: 12px;
+    margin-top: 22px;
+    font-size: 18px;
   }
   
   .third-plate p{
       text-align: center;
       color: rgb(255, 255, 255);
-      font-size: 35px;
+      font-size: 40px;
       margin: 0;
       padding: 0;
       font-weight: bold;
-      margin-top: 6px;
-      margin-bottom: 4px;
+      margin-top: 10px;
+      margin-bottom: 8px;
   }
   
   .third-plate a{
@@ -301,7 +328,11 @@ body {
       background-color:#5E60B3 ;
       border: 2px solid #5E60B3;
       color: rgba(255, 255, 255);
-      font-size: 12px;
+      font-size: 15px;
+  }
+
+  .third-plate a:hover{
+    color: red;
   }
 
 .menu-plates a{
@@ -314,7 +345,8 @@ body {
 }
 
 .row4{
-    width: 1900px;
+    width: 1700px;
+    min-height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -324,30 +356,28 @@ body {
     gap: 50px;
 }
 
+.left-row4{
+    display: flex;
+    width: 60%;
+}
+
 .soup-plate{
-    width: 300px;
+    width: 280px;
 }
 
 .review{
     width: 600px;
-    margin-left: 20px;
-}
-
-.about-customers{
-   width: 400px;
-   margin-left: 150px;
-   margin-right: 150px;
 }
 
 .about-customers h1 {
-    font-size: 65px;
+    font-size: 55px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.514);
     font-weight: normal;
 }
 .about-customers p {
     width: 400px;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 40px;
     margin-bottom: 50px;
     line-height: 1.5;
@@ -358,10 +388,16 @@ body {
     height: 17px;
     color: grey;
     margin-right: 30px;
+    cursor: pointer;
 } 
+
+.about-customers .btn-left img :hover{
+    background-color: red;
+}
 
 .about-customers .btn-right img{
     width: 60px;
+    cursor: pointer;
 }
 
 .about-customers .btn-right{
@@ -384,8 +420,8 @@ body {
 }
 
 .row5{
-    width: 2000px;
-    height: 400px;
+    width: 1700px;
+    min-height: 400px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -396,19 +432,21 @@ body {
 }
 
 .wtf{
-    width: 170px;
+    align-items: flex-start;
+    width: 240px;
 }
 
 .ready-to-start{
     margin-left: 50px;
+    width: 40%;
 }
 
 .ready-to-start h1{
- font-size: 45px;
+ font-size: 40px;
  color: rgba(255, 255, 255, 0.801);
 }
 .ready-to-start p{
- font-size: 25px;
+ font-size: 20px;
  color: rgba(255, 255, 255, 0.801);
  margin-top: 20px;
 }
@@ -418,11 +456,10 @@ body {
     padding-right: 300px;
     border-radius: 10px;
     font-size: 20px; 
-    margin-left: 100px;  
 }
 
 .last-plate{
-    width: 280px;
+    width: 400px;
     margin-left: 50px;
 }
 
@@ -435,9 +472,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 18px;
+    font-size: 16px;
     gap: 300px;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 50px;
 }
 
@@ -447,16 +484,21 @@ body {
     gap: 15px;
 }
 .row6 p{
-    line-height: 1.8;  
+    line-height: 2.5;  
     width: 30px;
     color: rgba(0, 0, 0, 0.6);
 }
 .row6 a{
     display: flex;
     align-items: center;
-
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
+    margin-top: 18px;
+}
+
+.row6 a:hover{
+  color: red;
+  ti
 }
 
 .rightp{
@@ -475,15 +517,16 @@ body {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .footer p{
     color:rgba(0, 0, 0, 0.6); 
-    font-size: 18px;
+    font-size: 16px;
 }
 .footer-nav a{
     color:rgba(0, 0, 0, 0.6); 
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     margin-right: 20px;
 }
