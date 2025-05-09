@@ -124,10 +124,8 @@ body {
 .bottom-row1 {
     width: 1700px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 20px;
 }
 
 .what-i-eat{
@@ -135,6 +133,7 @@ body {
     text-align: center;
    align-items: center;
    margin-right: 300px;
+
 }
 
 .leafrow1{
@@ -145,13 +144,13 @@ body {
 }
 
 .leafrow1 img{
-    width: 100px;
+    width: 120px;
     margin-right: 10px;
 }
 
 
 .bottom-row1 h1{
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 60px;
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.6);
@@ -446,7 +445,7 @@ body {
 .leaf{
     display: flex;
     align-self: flex-start;
-    width: 100px;
+    width: 120px;
     margin-right: 10px;
 }
 
